@@ -30,6 +30,11 @@ li{
     width: 70px;
     font-size: 12px;
 }
+.header_contain ul li.cur{
+    color: #000000;
+    background: #ffffff;
+}
+
 .header_logo .logo{
     width: 389px;
     height: 80px;
@@ -95,6 +100,43 @@ li{
 .container h3{
     margin-bottom: 30px;
 }
+.table_ul{
+
+}
+.table_ul li:first-child{
+    border-bottom: 2px solid #f6f6f6;
+}
+.table_ul li span{
+    display: inline-block;
+    width: 117px;
+    height: 40px;
+    text-align: center;
+}
+.table_ul li span{
+    border-right: 2px solid #f6f6f6;
+}
+.table_ul li span:last-child{
+    border-right: none;
+}
+.table_ul li span i{
+    font-style: normal;
+}
+.table_ul p{
+    padding-top: 0;
+}
+.container .big_le span:first-child{
+    font-size: 18px;
+    color: #e88372;
+}
+.table_ul .big_le p{
+    height: 50px;
+}
+.table_ul .big_le span{
+    font-size: 30px;
+    color: #e04622;
+    height: 50px;
+    line-height: 50px;
+}
 .chart{
     width: 464px;
     height: 264px;
@@ -155,13 +197,84 @@ li{
 }
 
 /*产品要素*/
+.chan{
+    box-sizing: border-box;
+    height: 385px;
+    background-color: #dddddd;
+    border-radius: 12px;
+    padding: 20px;
+}
+.chan_l{
+    box-sizing: border-box;
+    width: 484px;
+    height: 343px;
+    padding: 30px 20px;
+    background-color: #ebebeb;
+    border-radius: 12px;
+}
+.chan_l ul li{
+    position: relative;
+    line-height: 34px;
+    border-bottom: 1px solid #bfbfbf;
+}
+.chan_l ul i{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 444px;
+    height: 1px;
+    background-color: #ffffff;
+}
+.chan_l ul li:last-child{
+    border-bottom: none;
+}
+.chan_r{
+    position: relative;
+    margin-top: 40px;
+    width: 333px;
+    padding: 0 60px;
+    font-size: 18px;
+}
+.chan_r input{
+    width: 183px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #bfbfbf;
+    background-color: #dddddd;
+}
 
+.chan_r i:after{
+    position: absolute;
+    left: 119px;
+    display: block;
+    content: '';
+    width: 183px;
+    height: 1px;
+    background-color: #ffffff;
+}
+.btn{
+    vertical-align: -5px;
+    width: 82px;
+    height: 30px;
+    cursor: pointer;
+    background: url('../images/yuan_31.png') no-repeat center;
+}
+.more{
+    color: blue;
+    font-size: 12px;
+    margin-left: 180px;
+    text-decoration:underline;
+}
+.container .chan_r h3{
+    margin-bottom: 10px;
+    text-align: center;
+}
 /*选择展恒 十年诚信 安全放心*/
 .ten li{
    line-height: 36px;
 }
 
-.niu_wei li:before,.ten li:before,.zen_r p:before{
+.niu_wei li:before,.ten li:before,.zen_r p:before,.niu_b li:before{
     display:inline-block;
     content: "";
     width: 5px;
@@ -171,4 +284,13 @@ li{
     border-radius: 50%;
     background: blue;
     margin-right: 2px;
+}
+.duckRed{
+    color: #e04622;
+}
+.littleYellow{
+color: #ff8a00;
+}
+.littleBlue{
+color: #6798cb;
 }
