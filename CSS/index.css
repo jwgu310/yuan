@@ -247,6 +247,7 @@ li{
 }
 .chan_r label i:after{
     position: absolute;
+    top:30px;
     left: 59px;
     display: block;
     content: '';
