@@ -242,10 +242,12 @@ li{
     border-bottom: 1px solid #bfbfbf;
     background-color: #dddddd;
 }
-
-.chan_r i:after{
+.chan_r label{
+    position: relative;
+}
+.chan_r label i:after{
     position: absolute;
-    left: 119px;
+    left: 59px;
     display: block;
     content: '';
     width: 183px;
