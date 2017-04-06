@@ -14,6 +14,7 @@ var option = {
             }
         }
     },
+    backgroundColor:'#F4F4F4',
 
     legend: {
         data:['仓位','净值'],
@@ -82,5 +83,6 @@ var option = {
 
 // 使用刚指定的配置项和数据显示图表。
 myChart.setOption(option);
+/*
 var a = document.getElementById('main');
-a.style.backgroundColor = '#F4F4F4';
+a.style.backgroundColor = '#F4F4F4';*/
